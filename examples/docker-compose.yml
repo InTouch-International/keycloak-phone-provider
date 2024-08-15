@@ -1,27 +1,10 @@
 version: '3'
 services:
 
-
-#  database:
-#    image: coopersoft/mariadb-min:v1
-##    restart: always
-#    ports:
-#      - "3306:3306"
-#    volumes:
-#      - "/home/data/db:/var/lib/mysql"
-#    environment:
-#      MYSQL_ROOT_PASSWORD: p0stgr@s
-#      MYSQL_DATABASE: keycloak
-#      MYSQL_USER: keycloak
-#      MYSQL_PASSWORD: k@ycl0ck
-#      TZ: Asia/Shanghai
-
-
-
-
-
   keycloak:
-    image: coopersoft/keycloak:21.0.1_phone-2.2.2
+    image: 
+
+    
     #    restart: always
     ports:
       - 8080:8080
